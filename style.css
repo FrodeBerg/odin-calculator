@@ -1,16 +1,32 @@
 body {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
-h3 {
+p {
     margin: 0;
+    font-size: 48px;
+    display: block;
+}
+
+button {
+    background-color: white;
+    outline: none;
 }
 
 .display {
     grid-area: 1 / 1 / span 1 / span 4;
-    border: solid black 1px;
+    border: solid black 2px;
+    margin: 0;
+    text-align: right;
+    padding: 5px;
+    overflow: hidden;
+
+
 }
 
 .functionalButtons {
@@ -27,6 +43,9 @@ h3 {
 
 .calculator {
     display: grid;
-    width: 30vw;
+    grid-auto-rows: 1fr;
+    width: 30vh;
     height: 50vh;
+    padding: 10px;
+    border: solid black 4px;
 }
