@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    margin: 0;
+}
+
+.display {
+    grid-area: 1 / 1 / span 1 / span 4;
+    border: solid black 1px;
+}
+
+.functionalButtons {
+    grid-area: 2 / 1 / span 1 / span 4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.functionalButtons * {
+    height: 60%;
+    width: 30%;
+}
+
+.calculator {
+    display: grid;
+    width: 30vw;
+    height: 50vh;
+}
